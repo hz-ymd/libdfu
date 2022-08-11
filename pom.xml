@@ -5,6 +5,6 @@
              http://maven.apache.org/maven-v4_0_0.xsd">
    <modelVersion>4.0.0</modelVersion>
    <groupId>com.national.elock.sdk</groupId>
-   <artifactId>faceplatform</artifactId>
+   <artifactId>dfu</artifactId>
    <version>1.0</version>
 </project>
