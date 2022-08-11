@@ -5,5 +5,3 @@ install:
   - mvn install:install-file $FILE -DgroupId=com.national.elock.sdk -DartifactId=dfu -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
   - FILE="-Dfile=libfastdfu-0.5.aar" 
   - mvn install:install-file $FILE -DgroupId=com.national.elock.sdk -DartifactId=dfu -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
-  - FILE="-Dfile=libcomx-0.5.jar" 
-  - mvn install:install-file $FILE -DgroupId=com.national.elock.sdk -DartifactId=dfu -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
