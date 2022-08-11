@@ -1,7 +1,3 @@
 install: 
-  - FILE1="-Dfile=libble-0.5" 
-  - mvn install:install-file $FILE1 -DgroupId=com.national.elock.sdk -DartifactId=dfu -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
-  - FILE2="-Dfile=libdfu-1.5" 
-  - mvn install:install-file $FILE2 -DgroupId=com.national.elock.sdk -DartifactId=dfu -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
-  - FILE3="-Dfile=libfastdfu-0.5" 
-  - mvn install:install-file $FILE3 -DgroupId=com.national.elock.sdk -DartifactId=dfu -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  - FILE="-Dfile=libble-0.5" 
+  - mvn install:install-file $FILE -DgroupId=com.national.elock.sdk -DartifactId=dfu -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
